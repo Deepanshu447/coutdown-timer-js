@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+<head>
+    <style>
+        *{
+            font-family: 'Young Serif', serif;
+        }
+        .element {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 32px;
+        }
+
+        .container {
+            width: 100%;
+            /* height: 50px; */
+            display: flex;
+            /* background-color: rgb(206, 162, 219); */
+            justify-content: space-evenly;
+            text-align: center;
+        }
+
+        input {
+            width: 140px;
+            height: 140px;
+            margin: 0%;
+            padding:10px;
+            font-size:11vh;
+            text-align: center;
+            background-color: rgb(115, 255, 0);
+            border: none;
+        
+            
+        }
+
+       
+
+        label {
+            /* border: 2px solid; */
+            background-color: rgb(255, 255, 255);
+            width: 80px;
+            text-align: center;
+
+        }
+        body{
+            background-color: rgb(129, 127, 156);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <h1 id="para">COMING SOON/ TIME LEFT</h1>
+    </center>
+    <center>
+        <h2 id="enddate"></h2>
+    </center>
+    <center>
+        <!-- <input type="text"> -->
+    </center>
+    <div class="container">
+        <div class="element">
+            <input type="number" readonly value="0"><br>Days
+        </div>
+        <div class="element">
+            <input type="number" readonly value="0"><br>Hours
+        </div>
+        <div class="element">
+            <input type="number" readonly value="0"><br>Minutes
+        </div>
+        <div class="element">
+            <input type="number" readonly value="0"><br>Seconds
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
